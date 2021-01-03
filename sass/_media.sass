@@ -1,0 +1,369 @@
+@media (max-width: 1199px)
+    .menu
+        .menu_item
+            padding-right: 10px
+        .menu_link
+            font-size: 13px       
+    .subheader
+        .subheader_official
+            margin-top: 5px
+        .subheader_call
+            font-size: 11px
+        .subheader_phone
+            font-size: 18px
+    .promo
+        .promo_header
+            font-size: 56px
+        .promo_subheader
+            font-size: 35px
+        .promo_descr
+            font-size: 18px
+    .reasons
+        .reasons_block
+            align-items: flex-start
+    .mobile
+        .item
+            margin-bottom: 0px
+            width: 300px    
+    .footer
+        .footer_center
+            padding-left: 0px
+@media (max-width: 991px)
+    .menu
+        padding: 13px 10px
+        .menu_item
+            padding-right: 7px
+    .promo
+        .promo_header
+            font-size: 50px
+        .promo_subheader
+            font-size: 31px
+    .reasons
+        .reasons_header
+            font-size: 36px
+        .reasons_block
+            flex-direction: column
+            justify-content: center
+            align-items: center
+        .reasons_descr
+            margin-top: 10px
+    .mobile
+        .item
+            margin-bottom: 0px
+            width: 230px   
+            margin-top: 10px
+    .choise
+        .choise_img
+            width: 680px
+    .footer
+        &_items
+            .footer_center
+                .blue_block
+                    margin-left: 19px
+                    width: 230px
+                .links
+                    width: 275px
+                    &_big
+                        .big
+                            a
+                                font-size: 12px
+                    &_small
+                        .small
+                            a
+                                font-size: 9px
+            .footer_download
+                &_link
+                    width: 185px
+                    margin-right: 5px
+                    &_1
+                        img
+                            width: 60px
+                        a
+                            width: 60px
+                    &_2
+                        img
+                            width: 60px
+                        a
+                            width: 60px
+                    &_3
+                        img
+                            width: 60px
+                        a
+                            width: 60px
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        width: 50%
+        height: 100%
+        top: 0
+        left: -100%
+        background-color: rgba(0,0,0,0.8)
+        &_active
+            left: 0
+        .menu_item
+            margin-bottom: 20px
+            border: none
+            .menu_link
+                font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 20px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 0.6s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-last-child(1)                    
+                    transform: translateY(2px) rotate(-45deg)
+                &:nth-last-child(2)
+                    display: none
+                &:nth-last-child(3)
+                    transform: translateY(2px) rotate(45deg)
+    .subheader
+        .xs-hidden
+            display: none
+        .xs-visible
+            display: block
+        .subheader_logo
+            img
+                width: 100%
+        .subheader_phone
+            display: block
+            margin-top: 10px
+            color: #fff
+            font-size: 16px
+            font-weight: 400
+            text-transform: uppercase
+            text-align: center
+        .subheader_button
+            display: block
+            width: 200px
+            height: 40px
+            margin: 0 auto
+            margin-top: 10px
+    .mobile
+        .title
+            font-size: 31px
+        .item
+            margin: 0 auto
+            margin-top: 10px
+            width: 400px
+    .choise
+        .choise_img
+            width: 510px
+    .footer
+        &_social
+            width: 20%
+            &_link
+                width: 131px
+                margin-left: 5px
+        &_items        
+            .footer_center
+                width: 56%
+                padding-left: 32px
+                .blue_block
+                    width: 235px
+        .footer_download
+            &_link
+                    width: 140px
+                    margin-right: 5px
+                    &_1
+                        img
+                            width: 45px
+                        a
+                            width: 45px
+                    &_2
+                        img
+                            width: 45px
+                        a
+                            width: 45px
+                    &_3
+                        img
+                            width: 45px
+                        a
+                            width: 45px
+@media (max-width: 575px)
+    header
+        height: 30px
+    nav
+        height: 30px
+        .menu
+            .menu_item
+                .menu_link
+                    font-size: 10px
+    .subheader
+        height: 60px
+        top: 30px
+        &_official
+            display: none
+        .subheader_phone
+            font-size: 12px
+        .subheader_button
+            width: 110px
+            height: 22px
+            font-size: 10px
+            margin-top: 9px
+    .promo
+        min-height: 340px
+        padding: 113px 0px 35px 0px
+        .promo_header
+            font-size: 30px
+            font-weight: 900
+        .promo_subheader
+            font-size: 20px
+            font-weight: bold
+        .promo_descr
+            display: none
+        .promo_button
+            width: 210px
+            height: 50px
+            font-size: 16px
+    .reasons
+        .reasons_header
+            font-size: 16px
+            margin-top: 15px
+        .reasons_block
+            margin-top: 26px
+            .reasons_descr
+                width: 290px
+                text-align: justify
+                margin-left: 0
+            .reasons_img
+                width: 100px
+                height: 100px
+            .reasons_subtitle
+                margin-top: 5px
+                font-size: 16px
+            .reasons_text
+                font-size: 15px
+    .mobile
+        padding: 22px 0 48px 0
+        .title 
+            margin-top: 15px
+            font-size: 16px
+        .subtitle
+            margin-top: 11px
+            font-size: 14px
+        .item
+            width: 290px
+            .text
+                font-size: 18px
+    .choise
+        background-color: #070716
+        background-image: none
+        padding: 25px 0 33px 0
+        .choise_title
+            display: none
+        .choise_subtitle
+            display: none
+        .black_bg
+            display: none
+        .choise_img
+            margin: 0
+            margin-top: 35px
+            width: 280px
+        .choise_text
+            color: #fff
+            font-size: 17px
+    .require
+        padding: 25px 0 26px 0
+        .title
+            font-size: 16px
+            margin-top: 15px
+            margin-bottom: 0px
+        .require_conditions
+            font-size: 16px
+            margin-top: 22px
+        .conditions_list
+            margin-top: 5px
+            padding-left: 30px
+            li
+                font-size: 14px
+                margin-bottom: 5px
+        .conditions_cash
+            font-size: 14px
+        .require_red
+            margin-top: 26px
+            font-size: 16px
+        .require_red_list
+            margin-top: 5px
+            padding-left: 30px
+            li
+                font-size: 14px
+                margin-bottom: 5px
+    .world
+        padding: 25px 0 35px 0
+        min-height: 360px
+        .world_title
+            font-size: 16px
+        .world_subtitle
+            font-size: 14px
+        .all_city
+            margin-top: 216px
+            font-size: 15px
+    .footer        
+        padding: 0
+        .footer_items
+            display: block
+        .footer_center
+            padding-left: 18px
+            .blue_block
+                margin-top: 25px
+                margin-left: 22px
+            .links
+                width: 280px
+            .links_big
+                margin: 0
+                margin-top: 22px
+                .big
+                    a
+                        font-size: 14px
+            .links_small
+                .small 
+                    a 
+                        font-size: 9px
+            .language
+                margin-top: 13px
+        .footer_social
+            margin-left: 83px
+            margin-top: 20px
+            width: 33%
+            .footer_social_link
+                margin: 0
+                div
+                    margin-right: 5px
+        .footer_download
+            justify-content: space-around 
+            width: auto
+            &_link
+                    width: 250px
+                    margin-right: 5px
+                    margin-top: 20px
+                    &_1
+                        img
+                            width: 80px
+                        a
+                            width: 80px
+                    &_2
+                        img
+                            width: 80px
+                        a
+                            width: 80px
+                    &_3
+                        img
+                            width: 80px
+                        a
+                            width: 80px

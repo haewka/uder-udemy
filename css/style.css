@@ -1,0 +1,1353 @@
+/* line 1, C:/Users/User/Desktop/uberDZ/sass/style.sass */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 1, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+header {
+  position: relative;
+  height: 50px;
+}
+
+/* line 5, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #212121;
+  z-index: 3;
+}
+
+/* line 12, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.hamburger {
+  display: none;
+}
+
+/* line 15, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 22, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.menu .menu_link {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  outline: none;
+  text-decoration: none;
+}
+
+/* line 29, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.menu .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+/* line 32, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.menu .menu_item:last-child {
+  border-right: none;
+}
+
+/* line 35, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.subheader {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 42, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.subheader .subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 47, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.subheader .subheader_official {
+  margin-top: 6px;
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* line 54, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.subheader .subheader_call {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 19px;
+  text-align: right;
+}
+
+/* line 61, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.subheader .subheader_phone {
+  display: block;
+  margin-top: 8px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 12px;
+}
+
+/* line 71, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.subheader .subheader_button {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 2, C:/Users/User/Desktop/uberDZ/sass/_mixin.sass */
+.subheader .subheader_button:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 86, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.subheader .xs-visible {
+  display: none;
+}
+
+/* line 89, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.promo {
+  min-height: 800px;
+  background: url("../img/backgrounds/background1.png") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+/* line 94, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.promo .promo_header {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 60px;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 102, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.promo .promo_subheader {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 36px;
+  margin: 0;
+  margin-top: 22px;
+  text-align: center;
+}
+
+/* line 111, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.promo .promo_descr {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 23px;
+}
+
+/* line 119, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.promo .promo_button {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 2, C:/Users/User/Desktop/uberDZ/sass/_mixin.sass */
+.promo .promo_button:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 135, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.reasons {
+  padding: 71px 0 65px 0;
+}
+
+/* line 138, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.reasons .reasons_button {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 150, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.reasons_header {
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 159, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.reasons .reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 35px;
+}
+
+/* line 165, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.reasons .reasons_block .reasons_img {
+  display: block;
+  width: 113px;
+  height: 113px;
+}
+
+/* line 170, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.reasons .reasons_block .reasons_descr {
+  margin-left: 26px;
+  width: 343px;
+}
+
+/* line 174, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.reasons .reasons_block .reasons_descr .reasons_subtitle {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* line 180, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.reasons .reasons_block .reasons_descr .reasons_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+/* line 186, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 80px 0;
+  background-image: url(../img/backgrounds/Rectangle_bg.png);
+}
+
+/* line 191, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.mobile_button {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 202, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.title {
+  margin-top: 38px;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+/* line 209, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.subtitle {
+  margin-top: 19px;
+  font-size: 17px;
+  text-align: center;
+  color: #222222;
+}
+
+/* line 216, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.item {
+  margin-top: 32px;
+  width: 320px;
+  height: 280px;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 222, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.item_list_1 {
+  background-image: url(../img/icons/mob_bg_1.png);
+}
+
+/* line 224, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.item_list_2 {
+  background-image: url(../img/icons/mob_bg_2.png);
+}
+
+/* line 226, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.item_list_3 {
+  background-image: url(../img/icons/mob_bg_3.png);
+}
+
+/* line 228, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.item_list_4 {
+  background-image: url(../img/icons/mob_bg_4.png);
+}
+
+/* line 230, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.item_list_5 {
+  background-image: url(../img/icons/mob_bg_5.png);
+}
+
+/* line 232, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.item_list_6 {
+  background-image: url(../img/icons/mob_bg_6.png);
+}
+
+/* line 234, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.item .text {
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* line 240, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.choise {
+  position: relative;
+  padding: 57px 0 138px 0;
+  min-height: 896;
+  background-image: url(../img/backgrounds/Rectangle_bg.png);
+}
+
+/* line 245, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.choise_button {
+  position: relative;
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 257, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.choise_title {
+  position: relative;
+  margin-top: 32px;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  z-index: 2;
+}
+
+/* line 265, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.choise_subtitle {
+  position: relative;
+  margin-top: 19px;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  z-index: 2;
+}
+
+/* line 273, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.choise_img {
+  position: relative;
+  display: block;
+  margin: 56px auto 0 auto;
+  /** margin-left: -35px **/
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 280, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.choise_text {
+  margin: 0 auto;
+  margin-top: 4px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+  color: #222222;
+}
+
+/* line 288, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.choise .black_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 499px;
+  background-color: #070716;
+}
+
+/* line 297, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.require {
+  padding: 68px 0px 84px 0px;
+}
+
+/* line 299, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.require .title {
+  margin-top: 33px;
+}
+
+/* line 301, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.require_conditions {
+  margin-top: 33px;
+  font-size: 22px;
+  font-weight: normal;
+  color: #1ca8c3;
+}
+
+/* line 306, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.require .conditions_list {
+  margin-top: 12px;
+  list-style: none;
+  padding-left: 50px;
+}
+
+/* line 310, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.require .conditions_list li {
+  position: relative;
+  margin-bottom: 14px;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: left;
+  color: #222222;
+}
+
+/* line 317, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.require .conditions_list li:before {
+  position: absolute;
+  top: 3px;
+  left: -33px;
+  content: '';
+  display: inline-block;
+  height: 20px;
+  width: 21px;
+  background: url(../img/icons/okblue.png);
+}
+
+/* line 326, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.require .conditions_cash {
+  font-size: 17px;
+  color: #1ca8c3;
+  text-align: left;
+}
+
+/* line 330, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.require_red {
+  margin-top: 62px;
+  font-size: 22px;
+  font-weight: normal;
+  color: #ff5656;
+}
+
+/* line 335, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.require_red_list {
+  margin-top: 12px;
+  list-style: none;
+  padding-left: 50px;
+}
+
+/* line 339, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.require_red_list li {
+  position: relative;
+  margin-bottom: 14px;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: left;
+  color: #222222;
+}
+
+/* line 346, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.require_red_list li:before {
+  position: absolute;
+  top: 3px;
+  left: -33px;
+  content: '';
+  display: inline-block;
+  height: 20px;
+  width: 21px;
+  background: url(../img/icons/okred.png);
+}
+
+/* line 355, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.world {
+  min-height: 717px;
+  background: url(../img/backgrounds/worldmap.png) center center/cover no-repeat;
+  padding-top: 49px;
+  padding-bottom: 49px;
+}
+
+/* line 360, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.world_button {
+  position: relative;
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 371, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.world_title {
+  margin-top: 32px;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* line 378, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.world_subtitle {
+  margin-top: 20px;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* line 384, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.world .all_city {
+  margin-top: 486px;
+  text-align: center;
+}
+
+/* line 387, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.world .all_city a {
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  color: #1fbad6;
+}
+
+/* line 394, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer {
+  min-height: 148px;
+  padding: 14px 0 31px 0;
+}
+
+/* line 397, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_items {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 400, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_items .footer_center {
+  order: 2;
+  width: 33%;
+  padding-left: 70px;
+}
+
+/* line 404, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_items .blue_block {
+  margin-left: 45px;
+  width: 299px;
+  height: 4px;
+  background-color: #1fbad6;
+}
+
+/* line 409, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_items .links {
+  width: 390px;
+}
+
+/* line 411, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_items .links_big {
+  margin: 30px 10px 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 415, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_items .links_big a {
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left;
+  color: #070716;
+}
+
+/* line 423, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_items .links_small {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 427, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_items .links_small a {
+  font-size: 11px;
+  font-weight: 300;
+  text-align: left;
+  color: #999999;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 435, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_items .links .language {
+  margin-top: 19px;
+  text-align: center;
+}
+
+/* line 438, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_items .links .language a {
+  font-size: 11px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1fbad6;
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 445, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_social {
+  width: 33%;
+}
+
+/* line 447, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_social_link {
+  display: flex;
+  justify-content: space-between;
+  width: 153px;
+  height: 32px;
+  order: 1;
+  margin-top: 51px;
+  margin-left: 23px;
+}
+
+/* line 456, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_social_link_1 a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background: url(../img/icons/facebook.png);
+}
+
+/* line 463, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_social_link_2 a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background: url(../img/icons/twit.png);
+}
+
+/* line 470, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_social_link_3 a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background: url(../img/icons/in.png);
+}
+
+/* line 477, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_social_link_4 a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background: url(../img/icons/social.png);
+}
+
+/* line 484, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_download {
+  display: flex;
+  justify-content: flex-end;
+  width: 33%;
+  order: 3;
+}
+
+/* line 489, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_download_link {
+  display: flex;
+  justify-content: space-between;
+  width: 296px;
+  height: 27px;
+  margin-top: 52px;
+  margin-right: 23px;
+}
+
+/* line 497, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_download_link_1 a {
+  display: block;
+  width: 92px;
+  height: 27px;
+  /** background: url(../img/icons/appstore.png) **/
+}
+
+/* line 502, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_download_link_1 img {
+  width: 92px;
+  height: 27px;
+}
+
+/* line 506, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_download_link_2 a {
+  display: block;
+  width: 92px;
+  height: 27px;
+  /** background: url(../img/icons/googleplay.png) **/
+}
+
+/* line 511, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_download_link_2 img {
+  width: 92px;
+  height: 27px;
+}
+
+/* line 515, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_download_link_3 a {
+  display: block;
+  width: 92px;
+  height: 27px;
+  /** background: url(../img/icons/windstore.png) **/
+}
+
+/* line 520, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer_download_link_3 img {
+  width: 92px;
+  height: 27px;
+}
+
+/* line 523, C:/Users/User/Desktop/uberDZ/sass/_general.sass */
+.footer .footer_black_row {
+  margin-top: 31px;
+  background-color: #070716;
+  height: 8px;
+  width: 100%;
+}
+
+/** .subheader .container .row .xs-visible .subheader_phone
+  display: none **/
+@media (max-width: 1199px) {
+  /* line 3, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .menu .menu_item {
+    padding-right: 10px;
+  }
+  /* line 5, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .menu .menu_link {
+    font-size: 13px;
+  }
+  /* line 8, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .subheader .subheader_official {
+    margin-top: 5px;
+  }
+  /* line 10, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .subheader .subheader_call {
+    font-size: 11px;
+  }
+  /* line 12, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .subheader .subheader_phone {
+    font-size: 18px;
+  }
+  /* line 15, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .promo .promo_header {
+    font-size: 56px;
+  }
+  /* line 17, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .promo .promo_subheader {
+    font-size: 35px;
+  }
+  /* line 19, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .promo .promo_descr {
+    font-size: 18px;
+  }
+  /* line 22, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .reasons .reasons_block {
+    align-items: flex-start;
+  }
+  /* line 25, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .mobile .item {
+    margin-bottom: 0px;
+    width: 300px;
+  }
+  /* line 29, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_center {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 32, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .menu {
+    padding: 13px 10px;
+  }
+  /* line 34, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .menu .menu_item {
+    padding-right: 7px;
+  }
+  /* line 37, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .promo .promo_header {
+    font-size: 50px;
+  }
+  /* line 39, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .promo .promo_subheader {
+    font-size: 31px;
+  }
+  /* line 42, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .reasons .reasons_header {
+    font-size: 36px;
+  }
+  /* line 44, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .reasons .reasons_block {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* line 48, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .reasons .reasons_descr {
+    margin-top: 10px;
+  }
+  /* line 51, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .mobile .item {
+    margin-bottom: 0px;
+    width: 230px;
+    margin-top: 10px;
+  }
+  /* line 56, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .choise .choise_img {
+    width: 680px;
+  }
+  /* line 61, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer_items .footer_center .blue_block {
+    margin-left: 19px;
+    width: 230px;
+  }
+  /* line 64, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer_items .footer_center .links {
+    width: 275px;
+  }
+  /* line 68, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer_items .footer_center .links_big .big a {
+    font-size: 12px;
+  }
+  /* line 72, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer_items .footer_center .links_small .small a {
+    font-size: 9px;
+  }
+  /* line 75, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer_items .footer_download_link {
+    width: 185px;
+    margin-right: 5px;
+  }
+  /* line 79, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer_items .footer_download_link_1 img {
+    width: 60px;
+  }
+  /* line 81, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer_items .footer_download_link_1 a {
+    width: 60px;
+  }
+  /* line 84, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer_items .footer_download_link_2 img {
+    width: 60px;
+  }
+  /* line 86, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer_items .footer_download_link_2 a {
+    width: 60px;
+  }
+  /* line 89, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer_items .footer_download_link_3 img {
+    width: 60px;
+  }
+  /* line 91, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer_items .footer_download_link_3 a {
+    width: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 94, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  /* line 104, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .menu_active {
+    left: 0;
+  }
+  /* line 106, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .menu .menu_item {
+    margin-bottom: 20px;
+    border: none;
+  }
+  /* line 109, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .menu .menu_item .menu_link {
+    font-size: 20px;
+  }
+  /* line 111, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 12px;
+  }
+  /* line 119, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+    transition: 0.6s all;
+  }
+  /* line 127, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 129, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .hamburger_active span:nth-last-child(1) {
+    transform: translateY(2px) rotate(-45deg);
+  }
+  /* line 131, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .hamburger_active span:nth-last-child(2) {
+    display: none;
+  }
+  /* line 133, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .hamburger_active span:nth-last-child(3) {
+    transform: translateY(2px) rotate(45deg);
+  }
+  /* line 136, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .subheader .xs-hidden {
+    display: none;
+  }
+  /* line 138, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .subheader .xs-visible {
+    display: block;
+  }
+  /* line 141, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .subheader .subheader_logo img {
+    width: 100%;
+  }
+  /* line 143, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .subheader .subheader_phone {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  /* line 151, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .subheader .subheader_button {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  /* line 158, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .mobile .title {
+    font-size: 31px;
+  }
+  /* line 160, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .mobile .item {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 400px;
+  }
+  /* line 165, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .choise .choise_img {
+    width: 510px;
+  }
+  /* line 168, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer_social {
+    width: 20%;
+  }
+  /* line 170, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer_social_link {
+    width: 131px;
+    margin-left: 5px;
+  }
+  /* line 174, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer_items .footer_center {
+    width: 56%;
+    padding-left: 32px;
+  }
+  /* line 177, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer_items .footer_center .blue_block {
+    width: 235px;
+  }
+  /* line 180, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_download_link {
+    width: 140px;
+    margin-right: 5px;
+  }
+  /* line 184, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_download_link_1 img {
+    width: 45px;
+  }
+  /* line 186, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_download_link_1 a {
+    width: 45px;
+  }
+  /* line 189, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_download_link_2 img {
+    width: 45px;
+  }
+  /* line 191, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_download_link_2 a {
+    width: 45px;
+  }
+  /* line 194, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_download_link_3 img {
+    width: 45px;
+  }
+  /* line 196, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_download_link_3 a {
+    width: 45px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 199, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  header {
+    height: 30px;
+  }
+  /* line 201, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  nav {
+    height: 30px;
+  }
+  /* line 205, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  nav .menu .menu_item .menu_link {
+    font-size: 10px;
+  }
+  /* line 207, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .subheader {
+    height: 60px;
+    top: 30px;
+  }
+  /* line 210, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .subheader_official {
+    display: none;
+  }
+  /* line 212, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .subheader .subheader_phone {
+    font-size: 12px;
+  }
+  /* line 214, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .subheader .subheader_button {
+    width: 110px;
+    height: 22px;
+    font-size: 10px;
+    margin-top: 9px;
+  }
+  /* line 219, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .promo {
+    min-height: 340px;
+    padding: 113px 0px 35px 0px;
+  }
+  /* line 222, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .promo .promo_header {
+    font-size: 30px;
+    font-weight: 900;
+  }
+  /* line 225, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .promo .promo_subheader {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  /* line 228, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .promo .promo_descr {
+    display: none;
+  }
+  /* line 230, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .promo .promo_button {
+    width: 210px;
+    height: 50px;
+    font-size: 16px;
+  }
+  /* line 235, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .reasons .reasons_header {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  /* line 238, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .reasons .reasons_block {
+    margin-top: 26px;
+  }
+  /* line 240, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .reasons .reasons_block .reasons_descr {
+    width: 290px;
+    text-align: justify;
+    margin-left: 0;
+  }
+  /* line 244, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .reasons .reasons_block .reasons_img {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 247, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .reasons .reasons_block .reasons_subtitle {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  /* line 250, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .reasons .reasons_block .reasons_text {
+    font-size: 15px;
+  }
+  /* line 252, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .mobile {
+    padding: 22px 0 48px 0;
+  }
+  /* line 254, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .mobile .title {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  /* line 257, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .mobile .subtitle {
+    margin-top: 11px;
+    font-size: 14px;
+  }
+  /* line 260, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .mobile .item {
+    width: 290px;
+  }
+  /* line 262, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .mobile .item .text {
+    font-size: 18px;
+  }
+  /* line 264, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .choise {
+    background-color: #070716;
+    background-image: none;
+    padding: 25px 0 33px 0;
+  }
+  /* line 268, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .choise .choise_title {
+    display: none;
+  }
+  /* line 270, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .choise .choise_subtitle {
+    display: none;
+  }
+  /* line 272, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .choise .black_bg {
+    display: none;
+  }
+  /* line 274, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .choise .choise_img {
+    margin: 0;
+    margin-top: 35px;
+    width: 280px;
+  }
+  /* line 278, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .choise .choise_text {
+    color: #fff;
+    font-size: 17px;
+  }
+  /* line 281, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .require {
+    padding: 25px 0 26px 0;
+  }
+  /* line 283, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .require .title {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+  /* line 287, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .require .require_conditions {
+    font-size: 16px;
+    margin-top: 22px;
+  }
+  /* line 290, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .require .conditions_list {
+    margin-top: 5px;
+    padding-left: 30px;
+  }
+  /* line 293, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .require .conditions_list li {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  /* line 296, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .require .conditions_cash {
+    font-size: 14px;
+  }
+  /* line 298, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .require .require_red {
+    margin-top: 26px;
+    font-size: 16px;
+  }
+  /* line 301, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .require .require_red_list {
+    margin-top: 5px;
+    padding-left: 30px;
+  }
+  /* line 304, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .require .require_red_list li {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  /* line 307, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .world {
+    padding: 25px 0 35px 0;
+    min-height: 360px;
+  }
+  /* line 310, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .world .world_title {
+    font-size: 16px;
+  }
+  /* line 312, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .world .world_subtitle {
+    font-size: 14px;
+  }
+  /* line 314, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .world .all_city {
+    margin-top: 216px;
+    font-size: 15px;
+  }
+  /* line 317, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer {
+    padding: 0;
+  }
+  /* line 319, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_items {
+    display: block;
+  }
+  /* line 321, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_center {
+    padding-left: 18px;
+  }
+  /* line 323, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_center .blue_block {
+    margin-top: 25px;
+    margin-left: 22px;
+  }
+  /* line 326, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_center .links {
+    width: 280px;
+  }
+  /* line 328, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_center .links_big {
+    margin: 0;
+    margin-top: 22px;
+  }
+  /* line 332, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_center .links_big .big a {
+    font-size: 14px;
+  }
+  /* line 336, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_center .links_small .small a {
+    font-size: 9px;
+  }
+  /* line 338, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_center .language {
+    margin-top: 13px;
+  }
+  /* line 340, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_social {
+    margin-left: 83px;
+    margin-top: 20px;
+    width: 33%;
+  }
+  /* line 344, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_social .footer_social_link {
+    margin: 0;
+  }
+  /* line 346, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_social .footer_social_link div {
+    margin-right: 5px;
+  }
+  /* line 348, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_download {
+    justify-content: space-around;
+    width: auto;
+  }
+  /* line 351, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_download_link {
+    width: 250px;
+    margin-right: 5px;
+    margin-top: 20px;
+  }
+  /* line 356, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_download_link_1 img {
+    width: 80px;
+  }
+  /* line 358, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_download_link_1 a {
+    width: 80px;
+  }
+  /* line 361, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_download_link_2 img {
+    width: 80px;
+  }
+  /* line 363, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_download_link_2 a {
+    width: 80px;
+  }
+  /* line 366, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_download_link_3 img {
+    width: 80px;
+  }
+  /* line 368, C:/Users/User/Desktop/uberDZ/sass/_media.sass */
+  .footer .footer_download_link_3 a {
+    width: 80px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
